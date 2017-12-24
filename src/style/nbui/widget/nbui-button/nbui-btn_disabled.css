@@ -1,0 +1,125 @@
+/**
+* actionsheet
+*/
+/**
+* datetime
+*/
+/**
+* tabbar
+*/
+/**
+* tab
+*/
+/**
+* dialog
+*/
+/**
+* x-number
+*/
+/**
+* checkbox
+*/
+/**
+* check-icon
+*/
+/**
+* Cell
+*/
+/**
+* Mask
+*/
+/**
+* Range
+*/
+/**
+* Tabbar
+*/
+/**
+* Header
+*/
+/**
+* Timeline
+*/
+/**
+* Switch
+*/
+/**
+* Button
+*/
+/**
+* swipeout
+*/
+/**
+* Cell
+*/
+/**
+* Badge
+*/
+/**
+* Popover
+*/
+/**
+* Button tab
+*/
+/* alias */
+/**
+* Swiper
+*/
+/**
+* checklist
+*/
+/**
+* popup-picker
+*/
+/**
+* popup
+*/
+/**
+* popup-header
+*/
+/**
+* form-preview
+*/
+/**
+* load-more
+*/
+/**
+* sticky
+*/
+/**
+* group
+*/
+/**
+* toast
+*/
+/**
+* icon
+*/
+/**
+* calendar
+*/
+/**
+* week-calendar
+*/
+/**
+* search
+*/
+/**
+* radio
+*/
+/**
+* loadmore
+*/
+.nbui-btn_disabled {
+  color: rgba(255, 255, 255, 0.6);
+}
+.nbui-btn_disabled.nbui-btn_default {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #F7F7F7;
+}
+.nbui-btn_disabled.nbui-btn_primary {
+  background-color: #9ED99D;
+}
+.nbui-btn_disabled.nbui-btn_warn {
+  background-color: #EC8B89;
+}

@@ -1,0 +1,12 @@
+@import "../../base/fn";
+.nbui-btn_default {
+  color: @nbuiBtnDefaultFontColor;
+  background-color: @nbuiBtnDefaultBg;
+  &:not(.nbui-btn_disabled):visited {
+      color: @nbuiBtnDefaultFontColor;
+  }
+  &:not(.nbui-btn_disabled):active {
+      color: @nbuiBtnDefaultActiveFontColor;
+      background-color: @nbuiBtnDefaultActiveBg;
+  }
+}

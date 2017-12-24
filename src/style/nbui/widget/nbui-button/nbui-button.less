@@ -1,0 +1,62 @@
+@import "../../base/fn";
+@import "nbui-btn_global";
+@import "nbui-btn_default";
+@import "nbui-btn_primary";
+@import "nbui-btn_warn";
+@import "nbui-btn_disabled";
+@import "nbui-btn_loading";
+@import "nbui-btn_plain";
+
+
+button, input {
+  &.nbui-btn {
+      width: 100%;
+      border-width: 0;
+      outline: 0;
+      -nbbkit-appearance: none;
+      &:focus {
+          outline: 0;
+      }
+  }
+  &.nbui-btn_inline,&.nbui-btn_mini {
+      width: auto;
+  }
+  &.nbui-btn_plain-primary,&.nbui-btn_plain-default{
+      border-width: 1px;
+      background-color: transparent;
+  }
+}
+
+.nbui-btn_mini {
+  display: inline-block;
+  padding: 0 1.32em;
+  line-height: @nbuiBtnMiniHeight;
+  font-size: @nbuiBtnMiniFontSize;
+}
+
+
+/*gap betnben btn*/
+.nbui-btn + .nbui-btn {
+  margin-top: @nbuiBtnDefaultGap;
+}
+
+.nbui-btn.nbui-btn_inline + .nbui-btn.nbui-btn_inline {
+  margin-top: auto;
+  margin-left: @nbuiBtnDefaultGap;
+}
+
+// .nbui-btn-area {
+//   margin: @nbuiCellsMarginTop @nbuiBtnDefaultGap .3em; 
+// }
+// .nbui-btn-area_inline {
+//   display: flex;
+//   .nbui-btn {
+//       margin-top: auto;
+//       margin-right: @nbuiBtnDefaultGap;
+//       width: 100%;
+//       flex: 1;
+//       &:last-child {
+//           margin-right: 0;
+//       }
+//   }
+// }

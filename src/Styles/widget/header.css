@@ -1,0 +1,37 @@
+.vux-header {
+  height: 96px !important;
+  display: flex;
+  align-items: center;
+}
+.vux-header-left {
+  position: absolute;
+  height: 60px !important;
+  top: 30px !important;
+}
+.vux-header-title-area,
+.vux-header .vux-header-title {
+  margin: 0 auto !important;
+}
+.vux-header-title-area {
+  display: flex;
+  align-items: center;
+}
+.overwrite-title-tab .vux-button-group {
+  justify-content: center;
+}
+.overwrite-title-tab .vux-button-group > a.vux-button-tab-item-first:after {
+  border-top-left-radius: 60px !important;
+  border-bottom-left-radius: 60px !important;
+}
+.overwrite-title-tab .vux-button-group > a.vux-button-tab-item-last:after {
+  border-top-right-radius: 60px !important;
+  border-bottom-right-radius: 60px !important;
+}
+.overwrite-title-tab .vux-button-tab-item {
+
+  height: 60px !important;
+  line-height: 60px !important;
+  text-align: center;
+  color: #fff;
+  flex: none !important;
+}

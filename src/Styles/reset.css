@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'SourceHanSansCN-Light';
+  src: url('../fonts/SourceHanSansCN-Light.eot');
+  src: url('../fonts/SourceHanSansCN-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/SourceHanSansCN-Light.woff') format('woff'), /* Modern Browsers */ url('../fonts/SourceHanSansCN-Light.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/SourceHanSansCN-Light.svg#SourceHanSansCN-Light') format('svg');
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+del,
+em,
+img,
+strong,
+sub,
+sup,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html,
+body {
+  font-family: 'SourceHanSansCN-Light' !important;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-size: 14PX !important;
+  line-height: 1.2;
+  color: #333333;
+  background-color: white;
+  height: 100%;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+img {
+  border: 0;
+  max-width: 100% !important;
+  vertical-align: middle;
+}
+address,
+caption,
+cite,
+code,
+i,
+em,
+strong {
+  font-weight: normal;
+  font-style: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  background: transparent;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #0088cc;
+}
+a:active {
+  outline: 0;
+}
+a:active {
+  color: #006699;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:before,
+:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix {
+  overflow: hidden;
+  zoom: 1;
+}
+/*color*/
+.c-f56262 {
+  color: #f56262;
+}
+.c-00b876 {
+  color: #00b876;
+}
+.c-4abcd2 {
+  color: #4abcd2;
+}
+/*backgroundColor*/
+.bg-47bed4 {
+  background-color: #47bed4;
+}
+.bg-feb119 {
+  background-color: #feb119;
+}
+.bg-ff6667 {
+  background-color: #ff6667;
+}
+.bg-4ba9ff {
+  background-color: #4ba9ff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #999;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999;
+}
+input[readonly] {
+  color: #ccc !important;
+}
+/*禁止用户选中*/
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input {
+  -webkit-user-select: auto;
+}

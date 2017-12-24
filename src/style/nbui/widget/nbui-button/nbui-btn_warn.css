@@ -1,0 +1,122 @@
+/**
+* actionsheet
+*/
+/**
+* datetime
+*/
+/**
+* tabbar
+*/
+/**
+* tab
+*/
+/**
+* dialog
+*/
+/**
+* x-number
+*/
+/**
+* checkbox
+*/
+/**
+* check-icon
+*/
+/**
+* Cell
+*/
+/**
+* Mask
+*/
+/**
+* Range
+*/
+/**
+* Tabbar
+*/
+/**
+* Header
+*/
+/**
+* Timeline
+*/
+/**
+* Switch
+*/
+/**
+* Button
+*/
+/**
+* swipeout
+*/
+/**
+* Cell
+*/
+/**
+* Badge
+*/
+/**
+* Popover
+*/
+/**
+* Button tab
+*/
+/* alias */
+/**
+* Swiper
+*/
+/**
+* checklist
+*/
+/**
+* popup-picker
+*/
+/**
+* popup
+*/
+/**
+* popup-header
+*/
+/**
+* form-preview
+*/
+/**
+* load-more
+*/
+/**
+* sticky
+*/
+/**
+* group
+*/
+/**
+* toast
+*/
+/**
+* icon
+*/
+/**
+* calendar
+*/
+/**
+* week-calendar
+*/
+/**
+* search
+*/
+/**
+* radio
+*/
+/**
+* loadmore
+*/
+.nbui-btn_warn {
+  background-color: #E64340;
+}
+.nbui-btn_warn:not(.nbui-btn_disabled):visited {
+  color: #FFFFFF;
+}
+.nbui-btn_warn:not(.nbui-btn_disabled):active {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #CE3C39;
+}

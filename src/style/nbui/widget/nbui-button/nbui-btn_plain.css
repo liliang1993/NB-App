@@ -1,0 +1,139 @@
+/**
+* actionsheet
+*/
+/**
+* datetime
+*/
+/**
+* tabbar
+*/
+/**
+* tab
+*/
+/**
+* dialog
+*/
+/**
+* x-number
+*/
+/**
+* checkbox
+*/
+/**
+* check-icon
+*/
+/**
+* Cell
+*/
+/**
+* Mask
+*/
+/**
+* Range
+*/
+/**
+* Tabbar
+*/
+/**
+* Header
+*/
+/**
+* Timeline
+*/
+/**
+* Switch
+*/
+/**
+* Button
+*/
+/**
+* swipeout
+*/
+/**
+* Cell
+*/
+/**
+* Badge
+*/
+/**
+* Popover
+*/
+/**
+* Button tab
+*/
+/* alias */
+/**
+* Swiper
+*/
+/**
+* checklist
+*/
+/**
+* popup-picker
+*/
+/**
+* popup
+*/
+/**
+* popup-header
+*/
+/**
+* form-preview
+*/
+/**
+* load-more
+*/
+/**
+* sticky
+*/
+/**
+* group
+*/
+/**
+* toast
+*/
+/**
+* icon
+*/
+/**
+* calendar
+*/
+/**
+* week-calendar
+*/
+/**
+* search
+*/
+/**
+* radio
+*/
+/**
+* loadmore
+*/
+.nbui-btn_plain-primary {
+  color: #1aad19;
+  border: 1px solid #1aad19;
+}
+.nbui-btn_plain-primary:not(.nbui-btn_plain-disabled):active {
+  color: rgba(26, 173, 25, 0.6);
+  border-color: rgba(26, 173, 25, 0.6);
+  background-color: transparent;
+}
+.nbui-btn_plain-primary:after {
+  border-width: 0;
+}
+.nbui-btn_plain-default {
+  color: #353535;
+  border: 1px solid #353535;
+}
+.nbui-btn_plain-default:not(.nbui-btn_plain-disabled):active {
+  color: rgba(53, 53, 53, 0.6);
+  border-color: rgba(53, 53, 53, 0.6);
+}
+.nbui-btn_plain-default:after {
+  border-width: 0;
+}
+.nbui-btn_plain-disabled {
+  color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+}

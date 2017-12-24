@@ -1,0 +1,34 @@
+@import "../../../base/fn";
+
+.nbui-cell_vcode {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.nbui-vcode-img{
+    margin-left: 5px;
+    height: @nbuiCellHeight;
+    vertical-align: middle;
+}
+
+.nbui-vcode-btn {
+    display: inline-block;
+    height: @nbuiCellHeight;
+    margin-left: 5px;
+    padding: 0 0.6em 0 0.7em;
+    border-left: 1px solid @nbuiLineColorLight;
+    line-height: @nbuiCellHeight;
+    vertical-align: middle;
+    font-size: @nbuiCellFontSize;
+    color: @nbuiDialogLinkColor;
+    button&{
+        background-color: transparent;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        outline: 0;
+    }
+    &:active {
+        color: desaturate(@nbuiDialogLinkColor, 30%);
+    }
+}

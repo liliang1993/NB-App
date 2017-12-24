@@ -1,0 +1,116 @@
+.weui-btn {
+  font-size: 36px !important;
+  height: 80px !important;
+}
+.weui-btn_mini {
+  padding: 14px 17px !important;
+  height: auto !important;
+  line-height: 1 !important;
+  font-size: 30px !important;
+}
+.weui-btn_plain-default {
+  border: 1PX solid #48bed4 !important;
+  color: #48bed4 !important;
+}
+/**
+由于异步加载将多个路由共用的样式暂放在这里
+*/
+.radius-button {
+  width: 540px;
+  height: 96px;
+  text-align: center;
+  line-height: 96px;
+  font-size: 32px;
+  margin: 0 auto;
+  border-radius: 70px;
+}
+.radius-button.bgc-btn {
+  background-color: #48bed4;
+  color: #fff;
+  border: 1PX solid #48bed4;
+}
+.radius-button.no-bgc-btn {
+  border: 1PX solid #ccc;
+  background-color: #fff;
+  color: #999;
+}
+.nb-btn_mini {
+  width: 186px;
+  height: 58px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 58px;
+  border-radius: 3px;
+  border: 0;
+}
+.nb-btn_primary {
+  color: #fff;
+  background-color: #48bed4;
+}
+.nb-btn_disabled {
+  color: #fff;
+  background-color: #ccc;
+}
+.nb-btn_submit {
+  height: 97px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 97px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.nb-logo-bar {
+  text-align: center;
+  padding-top: 40px;
+}
+.logo {
+  width: 236px;
+  height: 236px;
+}
+.login-group {
+  margin-top: 45px;
+}
+.login-group .weui-cells {
+  border: 1PX solid #ccc;
+  border-radius: 48px;
+  width: 540px;
+  margin: 0 auto;
+}
+.login-group .weui-cells:before,
+.login-group .weui-cells:after {
+  color: #fff;
+  border-color: transparent;
+}
+.login-group .weui-cells .vux-x-input {
+  padding: 20px  48px;
+}
+.login-group .weui-cells .vux-x-input input {
+  font-size: 30px;
+  line-height: normal !important;
+}
+.login-group .weui-cells .vux-x-input img {
+  padding-right: 35px;
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.login-group .weui-cells .vux-x-input .weui-cell__ft {
+  display: flex;
+  align-items: center;
+}
+.nb-logo-bar {
+  text-align: center;
+  padding-top: 40px;
+}
+.cell-icon-wrapper {
+  padding-right: 15px;
+}
+.nb-cell-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
