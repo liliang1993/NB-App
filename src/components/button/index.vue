@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { go } from '../../libs/router'
+import { go } from 'libs/router'
 
 export default {
   name: 'nb-button',

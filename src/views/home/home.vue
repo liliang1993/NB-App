@@ -105,6 +105,17 @@
           
        </n-input>
     </group>
+    <button-tab>
+      <button-tab-item>
+        adb
+      </button-tab-item>
+      <button-tab-item>
+        adc
+      </button-tab-item>
+      <button-tab-item>
+        add
+      </button-tab-item>  
+    </button-tab>
   </div>
 </template>
 

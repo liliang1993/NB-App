@@ -40,6 +40,7 @@ let webpackConfig = {
       'mixins': resolve('src/mixins'),
       'libs': resolve('src/libs'),
       'tools': resolve('src/tools'),
+      'style': resolve('src/style'),
       'jquery': 'jquery'
     }
   },
