@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="nb-button-group">
     <slot></slot>  
   </div>  
 </template>
@@ -51,7 +51,7 @@ export default {
     transform: scale(0.5);
   }
 
-  .vux-button-group {
+  .nb-button-group {
     -webkit-touch-callout: none;
     & {
       display:flex;
