@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { parentMixin } from '../../mixins/multi-items'
+import { parentMixin } from 'mixins/multi-items'
 export default {
   name: 'button-tab',
   mixins: [parentMixin],
@@ -16,9 +16,9 @@ export default {
 </script>
 
 <style lang='less'>
-  @import 'style/variable.less';
-  // @import '../../styles/reddot.less';
-  @import 'style/1px.less';  
+  @import '../../style/variable.less';
+  @import '../../style/reddot.less';
+  @import '../../style/1px.less';  
   .setLineWithoutRight(@c: #C7C7C7) {
     content: " ";
     position: absolute;
@@ -33,6 +33,7 @@ export default {
     height: 200%;
     transform-origin: left top;
     transform: scale(0.5);
+    z-index: 1;
   }
   .setLineWithoutLeft(@c: #C7C7C7) {
     content: " ";
@@ -49,8 +50,9 @@ export default {
     height: 200%;
     transform-origin: left top;
     transform: scale(0.5);
+    z-index: 1;
   }
-
+ 
   .nb-button-group {
     -webkit-touch-callout: none;
     & {
@@ -74,10 +76,11 @@ export default {
         .setLine(@button-tab-default-border-color);
         border-top-left-radius: @button-tab-border-radius * 2;
         border-bottom-left-radius: @button-tab-border-radius * 2;
+        z-index:1;
       }
     }
 
-    a > a.vux-button-tab-item-middle {
+    & > a.vux-button-tab-item-middle {
       &:after {
         .setLineWithoutLeft(@button-tab-default-border-color);
       }

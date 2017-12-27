@@ -7,12 +7,14 @@
 </template>
 
 <script>
-import { childMixin} from  'mixins/multi-items'
+import { childMixin } from  'mixins/multi-items'
+console.log('childMixin',childMixin);
 export default {
   name: 'button-tab-item',
   mixins: [childMixin],
   computed: {
     classes () {
+      console.log('555',this.$parent,this.currentIndex);
       return {
         'vux-button-group-current': this.currentIndex === this.$parent.currentIndex,
         'vux-button-tab-item-first': this.currentIndex === 0,
@@ -32,7 +34,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
 

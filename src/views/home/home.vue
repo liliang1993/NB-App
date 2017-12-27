@@ -105,11 +105,11 @@
           
        </n-input>
     </group>
-    <button-tab>
+    <button-tab style='margin-top:30px;'>
       <button-tab-item>
         adb
       </button-tab-item>
-      <button-tab-item>
+      <button-tab-item selected>
         adc
       </button-tab-item>
       <button-tab-item>
@@ -130,7 +130,7 @@ import ButtonTab from 'components/button-tab/button-tab'
 import ButtonTabItem from 'components/button-tab/button-tab-item'
 
 import Api from 'api/api'
-import{ deepClone} from 'utils/utils.js'
+import {deepClone} from 'utils/utils.js'
 import {MenuList,BannerImageList} from 'configs/configs'
 import commonApi from'api/androidApi'
 import Scroll from 'components/scroll/scroll.vue'
@@ -153,7 +153,9 @@ export default {
       Cell,
       Group,
       NSwitch,
-      NInput
+      NInput,
+      ButtonTab,
+      ButtonTabItem
       // ArticleDetails:resolve => {require(['components/ArticleDetails'], resolve)},
     },
     filters:{
