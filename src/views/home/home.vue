@@ -116,6 +116,9 @@
         add
       </button-tab-item>  
     </button-tab>
+    <n-header>
+      
+    </n-header>
   </div>
 </template>
 
@@ -128,6 +131,7 @@ import NSwitch from 'components/switch'
 import NInput from 'components/input'
 import ButtonTab from 'components/button-tab/button-tab'
 import ButtonTabItem from 'components/button-tab/button-tab-item'
+import NHeader from 'components/header'
 
 import Api from 'api/api'
 import {deepClone} from 'utils/utils.js'
@@ -155,7 +159,8 @@ export default {
       NSwitch,
       NInput,
       ButtonTab,
-      ButtonTabItem
+      ButtonTabItem,
+      NHeader
       // ArticleDetails:resolve => {require(['components/ArticleDetails'], resolve)},
     },
     filters:{
